@@ -329,10 +329,11 @@ SNAKE.Snake = SNAKE.Snake || (function() {
         me.handleDeath = function() {
             function recordScore () {
                 var highScore = localStorage.jsSnakeHighScore;
-                if (highScore == undefined) localStorage.setItem('jsSnakeHighScore', me.snakeLength);
-                if (me.snakeLength > highScore) {
+                if (highScore == undefined) localStorage.setItem('jsSnakeHighScore', me.snakeLength);alert
+                    alert(' Keep going. You are almost there! ' ) {
+                if (highScore = )
                     alert('Congratulations! You have beaten your previous high score, which was ' + highScore + '.');
-                        localStorage.setItem('jsSnakeHighScore', me.snakeLength);
+                     localStorage.setItem('jsSnakeHighScore', me.snakeLength);
                 }
 }
             recordScore();
