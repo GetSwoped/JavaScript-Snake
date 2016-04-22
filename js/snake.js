@@ -333,6 +333,8 @@ SNAKE.Snake = SNAKE.Snake || (function() {
                 if (me.snakeLength > highScore) {
                     alert('Congratulations! You have beaten your previous high score, which was ' + highScore + '.');
                         localStorage.setItem('jsSnakeHighScore', me.snakeLength);
+                if (me.snakeLength < highscore) {
+                    alert('You almost had it! Keep on going and beat your previous high score, which was ' + highscore + '.');
                 }
 }
             recordScore();
